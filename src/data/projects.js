@@ -1,4 +1,4 @@
-const projects = [
+const Projects = [
   {
     title: "DayTheBarber",
     image: <img src="https://i.imgur.com/X9m3cpa.png" alt="daythebarber" className="projectpics" width="600" />,
@@ -17,5 +17,5 @@ const projects = [
 
 ]
 
-export default projects
+export default Projects
 
