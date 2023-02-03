@@ -1,3 +1,6 @@
+import ProjectPreview from "./ProjectPreview"
+
+
 function ProjectsList(props) {
 
   return (
@@ -8,6 +11,7 @@ function ProjectsList(props) {
       <ul>
       <li key={idx}>
           {project.title}
+          <ProjectPreview project={project} />
        </li> 
        </ul>
       )}
