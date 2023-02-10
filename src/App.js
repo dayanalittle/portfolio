@@ -9,8 +9,6 @@ import Contact from './pages/Contact/Contact';
 import Projects from './pages/Projects/Projects';
 import Resume from './pages/Resume/Resume';
 import ProjectDetails from './pages/ProjectDetails';
-
-// import logo from './logo.svg';
 import './App.css';
 
 
