@@ -2,7 +2,7 @@ import Projects from "../data/Projects";
 import hyphenateWords from "./hyphenateWords";
 
 
-unction findProject(string) {
+function findProject(string) {
   const title = Projects.find(project => {
     return hyphenateWords(project.title) === string
   })
