@@ -14,8 +14,8 @@ function ProjectPreview(props) {
           </button>
         </section>
         <img
-          src={props.project.image}
-          alt={props.project.title}
+          src={props.image}
+          alt={props.title}
         />
 
 
