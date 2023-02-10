@@ -1,4 +1,4 @@
-import Projects from "../data/Projects";
+import Projects from "../data/Projectsdata";
 import hyphenateWords from "./hyphenateWords";
 
 

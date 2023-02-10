@@ -1,4 +1,4 @@
-import Projects from "../../data/Projects.js"
+import Projects from "../../data/Projectsdata.js"
 import ProjectList from "../../components/ProjectsList"
 
 function Project() {
