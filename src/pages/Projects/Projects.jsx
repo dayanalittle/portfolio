@@ -1,5 +1,4 @@
 import projects from "../../data/Projects"
-import ProjectsList from "../../components/ProjectList"
 
 function Project() {
     return (
@@ -15,7 +14,6 @@ function Project() {
                     </ul>
                 )}
             </section>
-            <ProjectsList projects={Project} />
         </>
     )
 }
