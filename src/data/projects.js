@@ -1,4 +1,4 @@
-const Projects = [
+const projects = [
   {
     title: "DayTheBarber",
     description: "For years, I couldn't find a booking application thathad all the features I needed to successfully service all of my clients, so I created one! With this app my clients can create a profile by simply signing in using Google Auth. From there you can book, edit, reschedule, view, and leave reviews for appointments.",
@@ -15,5 +15,5 @@ const Projects = [
 
 ]
 
-export default Projects
+export default projects
 
