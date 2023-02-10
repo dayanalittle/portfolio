@@ -1,3 +1,5 @@
+import ProjectPreview from "./ProjectPreview"
+
 function ProjectList(props) {
     return (
 
@@ -7,8 +9,7 @@ function ProjectList(props) {
                 {props.projects.map((project) =>
                     <ul>
                         <li key={project.title}>
-                            {project.title}
-                            {project.image}
+                            <ProjectPreview project={project} />
                         </li>
                     </ul>
                 )}
